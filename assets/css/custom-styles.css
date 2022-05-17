@@ -1,0 +1,59 @@
+/* Some custom styles 
+*/
+a, .nav-link {
+	color: #1A2980;
+}
+.nav-link:hover {
+	color: #26D0CE;
+}
+a:hover {
+	color: #26D0CE;
+}
+
+.custom-banner-card:hover {
+	background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+.blockquote-footer:hover {
+color: white;
+}
+
+.custom-gradient-back {
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.custom-btn-gradient {
+	--bs-btn-border-color: none;
+	background: #1A2980;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.custom-btn-gradient:hover {
+	background: #1A2980;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.custom-btn-outline {
+	border-color: #1A2980;
+	color: #1A2980;
+}
+.custom-btn-outline:hover {
+	background: #1A2980;
+	border-color: #1A2980;
+}
+
+.custom-link-btn-outline:hover {
+	color: var(--bs-white);
+	}
+
+.card:hover {
+	--bs-border-opacity: 1;
+	border-color: #1A2980;
+}
+
+.card:hover > .card-header {
+	--bs-bg-opacity: 1;
+	background: #1A2980;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: var(--bs-white);
+}
